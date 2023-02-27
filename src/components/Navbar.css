@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62%;
+}
+
+body {
+    color: white;
+    font-size: 1.6rem;
+}
+
+li {
+    list-style: none;
+}
+
+a:hover {
+    color: orange;
+    /* background: white; */
+}
+
+a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color:white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
+    /* position: sticky; */
+    background-color: black;
+} /* background or the nav bar */
+
+.nav .brand {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+} /* Contents in horizontal */
+
+.nav_toggler div {
+    width: 2rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: white;
+} /* Nav bar Toogle */ 
+
+.nav_toggler {
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .nav_toggler {
+        display: block;
+    }
+
+    .nav_menu {
+        position: fixed;
+        top: 7vh;
+        right: 0;
+        width: 50%;
+        height: 93vh;
+        background: black;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.5s ease-out;
+    }
+} /* Mobile view */
+
+.nav_active {
+    transform: translateX(0);
+} /* Nav Active class */
+
+/* .nav_item {
+    background-color: white;
+    color: black;
+} */
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-4px, 5px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-4px, -5px);
+}
