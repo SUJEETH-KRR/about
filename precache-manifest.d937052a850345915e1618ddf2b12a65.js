@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ccc831b4216d15d2d058",
+    "revision": "45a7864c708c7ed2b0ad",
     "url": "/react_portfolio/static/css/main.1a136470.chunk.css"
   },
   {
-    "revision": "ccc831b4216d15d2d058",
-    "url": "/react_portfolio/static/js/main.ccc831b4.chunk.js"
+    "revision": "45a7864c708c7ed2b0ad",
+    "url": "/react_portfolio/static/js/main.45a7864c.chunk.js"
   },
   {
     "revision": "854fc18e6a593aa9decc",
@@ -80,15 +80,15 @@ self.__precacheManifest = [
     "url": "/react_portfolio/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/react_portfolio/static/media/slick.b7c9e1e4.woff"
-  },
-  {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/react_portfolio/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "06cf9e385fff2bec887c33e57495491f",
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/react_portfolio/static/media/slick.b7c9e1e4.woff"
+  },
+  {
+    "revision": "d39eebfc55ab0073b0dc0811f4facea5",
     "url": "/react_portfolio/index.html"
   }
 ];
