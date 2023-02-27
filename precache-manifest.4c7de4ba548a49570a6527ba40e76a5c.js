@@ -72,12 +72,12 @@ self.__precacheManifest = [
     "url": "/react_portfolio/static/media/dsa.4f1f00e3.png"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/react_portfolio/static/media/slick.d41f55a7.ttf"
-  },
-  {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/react_portfolio/static/media/slick.ced611da.eot"
+  },
+  {
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/react_portfolio/static/media/slick.d41f55a7.ttf"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/react_portfolio/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "d39eebfc55ab0073b0dc0811f4facea5",
+    "revision": "10edeb3cd30b498a4023b4615b397e58",
     "url": "/react_portfolio/index.html"
   }
 ];
