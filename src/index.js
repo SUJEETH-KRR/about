@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-// import "./style.css";
-// import "./components/skill.css";
-// import "./components/resume.css";
+import App from './App';  
 
 import { BrowserRouter } from 'react-router-dom';
 

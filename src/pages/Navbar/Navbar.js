@@ -8,6 +8,7 @@ export default function Navbar() {
             Portfolio
         </h1>
         <ul className='links'>
+
             <CustomLink to="/about">About</CustomLink>
 
             <CustomLink to="/resume">Resume</CustomLink>
