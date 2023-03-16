@@ -9,7 +9,17 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <>
-      
+      <Navbar />
+      <div className="container">
+        <Routes>
+          <Route path='/' element={ <About /> } />
+          <Route path='/about' element={ <About /> }/>
+          <Route path='/resume' element={ <Resume /> }/>
+          <Route path='/skill' element={ <Skill /> }/>
+          <Route path='/project' element={ <Project /> }/>
+        </Routes> 
+        {/* We Use routes in place of switch for reusement */}
+      </div>
     </>
   )
 }
