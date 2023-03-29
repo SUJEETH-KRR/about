@@ -104,10 +104,7 @@ export default class Project extends Component {
             </div>
             <div>
               <p>
-                It is a mobile based application which is used as an TODO list,
-                where users can manage their daily todos which are considered as
-                important. Not only this application stores the data but also
-                notify's them as a notification and as an remainder.
+                A web application which is used to keep track the daily expenses.
               </p>
               <div>
                 <p>Implementation :</p>
@@ -132,10 +129,7 @@ export default class Project extends Component {
             </div>
             <div>
               <p>
-                It is a mobile based application which is used as an TODO list,
-                where users can manage their daily todos which are considered as
-                important. Not only this application stores the data but also
-                notify's them as a notification and as an remainder.
+                It is a Web Application used to search something. It works similar to google search but only trusted websites were displayed to users.
               </p>
               <div>
                 <p>Implementation :</p>

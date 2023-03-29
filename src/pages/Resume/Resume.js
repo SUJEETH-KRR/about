@@ -320,7 +320,6 @@ const Resume = () => {
           <li><i className="fas fa-phone"></i> (91+) 8072155023</li>
           <li><i className="fas fa-envelope"></i> sujeethkrr@gmail.com</li>
           <li><i className="fas fa-envelope"></i> sujeeth.ct20@bitsathy.ac.in</li>
-          <li><i className="fas fa-globe"></i> johndoe.com</li>
         </ul>
       </div>
       <div className="summary">
@@ -337,7 +336,7 @@ const Resume = () => {
           <h5>TrusTrace</h5>
           <h6>June 2022</h6>
           <ul>
-            <li>Worked on designing the frontend part for fake certificate detection.</li>
+            <li>Worked on designing the frontend part for IoT device management.</li>
           </ul>
         </div>
       </div>

@@ -1,12 +1,12 @@
 import React from 'react';
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-export default function Navbar() {
+function Navbar (props) {
+
     return <nav className="nav">
-        <h1 className="portfolio">
-            Portfolio
-        </h1>
+        <img src='https://cdn-icons-png.flaticon.com/512/187/187840.png?w=740&t=st=1678989228~exp=1678989828~hmac=62a8ec7e9d3c9281c7a79dd849baf322c58b4d4b01ba4101a6d8a4ba570ddf6e' style={{height:'40px'}}></img>
+
         <ul className='links'>
 
             <CustomLink to="/about">About</CustomLink>
@@ -24,9 +24,11 @@ function CustomLink( {to, children, ...props} ) {
     const path = window.location.pathname;
     return (
         <li className={ path === to ? "active":"" }>
-            <Link to={ to } { ...props }>
+            <NavLink to={ to } { ...props }>
                 { children }
-            </Link>
+            </NavLink>
         </li>
     )
 } // We are reusing the same link component for different different pages. 1 CustomLink for multiple pages
+
+export default Navbar;

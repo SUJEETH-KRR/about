@@ -22,43 +22,46 @@ export default function Skill() {
         {" "}
         <Typical loop={Infinity} steps={["Skill and Technologies", 1000]} />
       </h1>
+      <div className="maindiv">
+        <div className="container">
+          <div>
+            <p className="frontend">Programming skills</p>
+          </div>
+          <div className="skill-container">
+            <div className="skill-list">
+              <Card imageUrl={c} title="C" now={60} />
+            </div>
+            <div className="skill-list">
+              <Card imageUrl={cpp} title="C++" />
+            </div>
+            <div className="skill-list">
+              <Card imageUrl={dsa} title="Problem Solving" />
+            </div>
+          </div>
+        </div>
 
-      <div>
-        <p className="frontend">Programming skills</p>
-      </div>
-      <div className="skill-container">
-        <div className="skill-list">
-          <Card imageUrl={c} title="C" now={60}/>
-        </div>
-        <div className="skill-list">
-          <Card imageUrl={cpp} title="C++" />
-        </div>
-        <div className="skill-list">
-          <Card imageUrl={dsa} title="Problem Solving" />
+        <div className="container">
+          <div>
+            <p className="frontend">Front-end skills</p>
+          </div>
+          <div className="skill-container">
+            <div className="skill-list">
+              <Card className="card" imageUrl={html} title="HTML" />
+            </div>
+            <div className="skill-list">
+              <Card imageUrl={css} title="CSS" />
+            </div>
+            <div className="skill-list">
+              <Card imageUrl={js} title="Javascript" />
+            </div>
+            <div className="skill-list">
+              <Card imageUrl={react} title="React" />
+            </div>
+          </div>
+
         </div>
       </div>
 
-      <div></div>
-      <div></div>
-      <div>
-        <p className="frontend">Front-end skills</p>
-      </div>
-      <div className="skill-container">
-        <div className="skill-list">
-          <Card className="card" imageUrl={html} title="HTML" />
-        </div>
-        <div className="skill-list">
-          <Card imageUrl={css} title="CSS" />
-        </div>
-        <div className="skill-list">
-          <Card imageUrl={js} title="Javascript" />
-        </div>
-        <div className="skill-list">
-          <Card imageUrl={react} title="React" />
-        </div>
-      </div>
-      <div></div>
-      <div></div>
       <div>
         <p className="backend">Back-end skills</p>
       </div>

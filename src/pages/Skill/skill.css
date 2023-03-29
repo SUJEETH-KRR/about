@@ -7,10 +7,19 @@
     column-gap: 3.5%;
 }
 
+.skill-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex: 5; */
+}
+
 .skill h1 {
     font-size: xx-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: orangered;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-container {
@@ -38,9 +47,15 @@
 } 
 
 .frontend, .backend {
-    display: flex;
-    margin-left: 5%;
     font-size: 150%;
     font-weight: 500;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.maindiv {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+

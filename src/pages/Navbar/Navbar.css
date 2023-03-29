@@ -8,11 +8,15 @@ body {
 
 .nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding-right: 1rem;
+  padding-left: 1rem;
   align-items: center;
-  padding: 1rem;
   background-color: black;
   color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .links {
@@ -27,24 +31,22 @@ body {
 .nav a {
   color: white;
   text-decoration: none;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1.5rem;
+  font-weight: bolder;
 }
 
 .nav a:hover {
   color: rgb(211, 69, 18);
 }
 
-/* .nav li:hover {
-    background-color: blue;
+.nav a.active {
+  color: red;
+  border-bottom: 5px solid orangered;
 }
-
-.nav li.active {
-    color: red;
-} */
 
 .container {
   /* margin-top: 1rem; */
@@ -64,4 +66,9 @@ body {
   .links li {
     margin: 0.5rem 0;
   }
+}
+
+.active {
+  color: blue;
+  /* border-bottom: 2px solid red; */
 }
