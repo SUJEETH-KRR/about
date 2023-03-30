@@ -1,10 +1,10 @@
 {
   "main.css": "/react_portfolio/about/static/css/main.86e6e092.chunk.css",
-  "main.js": "/react_portfolio/about/static/js/main.1a644e40.chunk.js",
-  "main.js.map": "/react_portfolio/about/static/js/main.1a644e40.chunk.js.map",
+  "main.js": "/react_portfolio/about/static/js/main.81cb424d.chunk.js",
+  "main.js.map": "/react_portfolio/about/static/js/main.81cb424d.chunk.js.map",
   "static/css/1.3774c471.chunk.css": "/react_portfolio/about/static/css/1.3774c471.chunk.css",
-  "static/js/1.ee070b1b.chunk.js": "/react_portfolio/about/static/js/1.ee070b1b.chunk.js",
-  "static/js/1.ee070b1b.chunk.js.map": "/react_portfolio/about/static/js/1.ee070b1b.chunk.js.map",
+  "static/js/1.16d2909e.chunk.js": "/react_portfolio/about/static/js/1.16d2909e.chunk.js",
+  "static/js/1.16d2909e.chunk.js.map": "/react_portfolio/about/static/js/1.16d2909e.chunk.js.map",
   "runtime~main.js": "/react_portfolio/about/static/js/runtime~main.826817c4.js",
   "runtime~main.js.map": "/react_portfolio/about/static/js/runtime~main.826817c4.js.map",
   "static/media/css.png": "/react_portfolio/about/static/media/css.b848d5d9.png",
@@ -20,10 +20,10 @@
   "static/media/c.png": "/react_portfolio/about/static/media/c.b665ad42.png",
   "static/media/c++.png": "/react_portfolio/about/static/media/c++.9c36ab0f.png",
   "static/media/dsa.png": "/react_portfolio/about/static/media/dsa.4f1f00e3.png",
-  "static/media/slick-theme.css": "/react_portfolio/about/static/media/slick.d41f55a7.ttf",
-  "static/css/1.3774c471.chunk.css.map": "/react_portfolio/about/static/css/1.3774c471.chunk.css.map",
+  "static/media/slick-theme.css": "/react_portfolio/about/static/media/slick.f97e3bbf.svg",
   "static/css/main.86e6e092.chunk.css.map": "/react_portfolio/about/static/css/main.86e6e092.chunk.css.map",
+  "static/css/1.3774c471.chunk.css.map": "/react_portfolio/about/static/css/1.3774c471.chunk.css.map",
   "index.html": "/react_portfolio/about/index.html",
-  "precache-manifest.1f0ebcc1e7eff252e1784e1f3afa8c96.js": "/react_portfolio/about/precache-manifest.1f0ebcc1e7eff252e1784e1f3afa8c96.js",
+  "precache-manifest.a4fdcf0d615bec7e47622b7b9ed5db6f.js": "/react_portfolio/about/precache-manifest.a4fdcf0d615bec7e47622b7b9ed5db6f.js",
   "service-worker.js": "/react_portfolio/about/service-worker.js"
 }
