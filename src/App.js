@@ -4,11 +4,11 @@ import About from './pages/About/About';
 import Resume from './pages/Resume/Resume';
 import Project from './pages/Project/Project';
 import Skill from './pages/Skill/Skill';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Navbar />
       <div className="container">
         <Routes>
@@ -20,7 +20,7 @@ function App() {
         </Routes> 
         {/* We Use routes in place of switch for reusement */}
       </div>
-    </>
+    </BrowserRouter>
   )
 }
 
