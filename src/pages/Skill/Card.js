@@ -11,9 +11,6 @@ export default function Card( {imageUrl, title, now} ) {
       <div className="card-title">
         <h3>{title}</h3>
       </div>
-      <div>
-        <ProgressBar animated now={now}/>
-      </div>
     </div>
   );
 }

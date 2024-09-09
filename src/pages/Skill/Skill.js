@@ -13,6 +13,9 @@ import firebase from "../../images/firebase.png";
 import c from "../../images/c.png";
 import cpp from "../../images/c++.png";
 import dsa from "../../images/dsa.png";
+import aws from "../../images/aws.png";
+import azure from "../../images/azure.png";
+import docker from "../../images/docker.png";
 
 export default function Skill() {
   return (
@@ -25,11 +28,28 @@ export default function Skill() {
       <div className="maindiv">
         <div className="container">
           <div>
+            <p className="frontend">Cloud & DevOps tools</p>
+          </div>
+          <div className="skill-container">
+            <div className="skill-list">
+              <Card imageUrl={aws} title="AWS" />
+            </div>
+            <div className="skill-list">
+              <Card imageUrl={azure} title="Azure" />
+            </div>
+            <div className="skill-list">
+              <Card imageUrl={docker} title="Docker" />
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div>
             <p className="frontend">Programming skills</p>
           </div>
           <div className="skill-container">
             <div className="skill-list">
-              <Card imageUrl={c} title="C" now={60} />
+              <Card imageUrl={c} title="C" />
             </div>
             <div className="skill-list">
               <Card imageUrl={cpp} title="C++" />
@@ -58,10 +78,8 @@ export default function Skill() {
               <Card imageUrl={react} title="React" />
             </div>
           </div>
-
         </div>
       </div>
-
       <div>
         <p className="backend">Back-end skills</p>
       </div>

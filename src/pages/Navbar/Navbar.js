@@ -11,7 +11,7 @@ function Navbar (props) {
 
             <CustomLink to="/about">About</CustomLink>
 
-            <CustomLink to="/resume">Resume</CustomLink>
+            <CustomLink to="/resume">Experience</CustomLink>
 
             <CustomLink to="/skill">Skills</CustomLink>
 

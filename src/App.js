@@ -4,7 +4,7 @@ import About from './pages/About/About';
 import Resume from './pages/Resume/Resume';
 import Project from './pages/Project/Project';
 import Skill from './pages/Skill/Skill';
-import { BrowserRouter, Routes, Route, redirect } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -17,7 +17,6 @@ function App() {
           <Route path='/resume' element={ <Resume /> }/>
           <Route path='/skill' element={ <Skill /> }/>
           <Route path='/project' element={ <Project /> }/>
-          <redirect to="/" />
         </Routes> 
         {/* We Use routes in place of switch for reusement */}
       </div>

@@ -12,12 +12,12 @@ export default function About() {
       <div className="left-content">
         <section id="home">
           <div class="main">
-            <h1 class="headings">
+            <h1 class="headings" style={{color: "black"}}>
               I am
               <div id="name">SUJEETH G</div>
               <div id="content_me">
                 {" "}
-                <p>
+                <p style={{color: "#3C3D37"}}>
                 Persistent, eagerly waiting to join as Software Developer to provide better solutions for implementing and developing applications along with my Technical and Designing skills.
                 </p>
               </div>

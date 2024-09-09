@@ -12,7 +12,7 @@ body {
   padding-right: 1rem;
   padding-left: 1rem;
   align-items: center;
-  background-color: black;
+  background-color: #1E201E;
   color: white;
   position: sticky;
   top: 0;
@@ -29,7 +29,7 @@ body {
 }
 
 .nav a {
-  color: white;
+  color: #E9EFEC;
   text-decoration: none;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
