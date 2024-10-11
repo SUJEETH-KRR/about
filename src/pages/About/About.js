@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import MyResume from "../../documents/Resume.pdf";
+import MyResume from "../../documents/portfolio.pdf";
 import sujeeth_img from "../../images/sujeeth.png";
 
 export default function About() {
