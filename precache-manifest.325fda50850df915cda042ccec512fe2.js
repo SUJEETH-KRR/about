@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6fab16980591b43689b2",
+    "revision": "405297330569eeeebce8",
     "url": "/about/static/css/main.620c46aa.chunk.css"
   },
   {
-    "revision": "6fab16980591b43689b2",
-    "url": "/about/static/js/main.6fab1698.chunk.js"
+    "revision": "405297330569eeeebce8",
+    "url": "/about/static/js/main.40529733.chunk.js"
   },
   {
     "revision": "8d68ba97aa47b223dbfb",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/about/static/media/avasoft.228146ba.webp"
   },
   {
-    "revision": "02909005b8b355c7c9c8558926f67948",
-    "url": "/about/static/media/Resume.02909005.pdf"
+    "revision": "51a8764b36bd16c9181eef70518a38e8",
+    "url": "/about/static/media/portfolio.51a8764b.pdf"
   },
   {
     "revision": "d25cbaf500f33311a50b1ebaa2befefa",
@@ -96,19 +96,19 @@ self.__precacheManifest = [
     "url": "/about/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/about/static/media/slick.f97e3bbf.svg"
-  },
-  {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/about/static/media/slick.ced611da.eot"
+  },
+  {
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/about/static/media/slick.f97e3bbf.svg"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/about/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "b63b4520bcb531cf579f1019d89f8395",
+    "revision": "98c09ec824e88577b72f2f0386cbf595",
     "url": "/about/index.html"
   }
 ];

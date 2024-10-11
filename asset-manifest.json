@@ -1,7 +1,7 @@
 {
   "main.css": "/about/static/css/main.620c46aa.chunk.css",
-  "main.js": "/about/static/js/main.6fab1698.chunk.js",
-  "main.js.map": "/about/static/js/main.6fab1698.chunk.js.map",
+  "main.js": "/about/static/js/main.40529733.chunk.js",
+  "main.js.map": "/about/static/js/main.40529733.chunk.js.map",
   "static/css/1.0f20b508.chunk.css": "/about/static/css/1.0f20b508.chunk.css",
   "static/js/1.8d68ba97.chunk.js": "/about/static/js/1.8d68ba97.chunk.js",
   "static/js/1.8d68ba97.chunk.js.map": "/about/static/js/1.8d68ba97.chunk.js.map",
@@ -12,7 +12,7 @@
   "static/media/js.png": "/about/static/media/js.5301af1e.png",
   "static/media/react.png": "/about/static/media/react.8e794009.png",
   "static/media/avasoft.webp": "/about/static/media/avasoft.228146ba.webp",
-  "static/media/Resume.pdf": "/about/static/media/Resume.02909005.pdf",
+  "static/media/portfolio.pdf": "/about/static/media/portfolio.51a8764b.pdf",
   "static/media/sujeeth.png": "/about/static/media/sujeeth.d25cbaf5.png",
   "static/media/trustrace.jpg": "/about/static/media/trustrace.4b5f2f4c.jpg",
   "static/media/meet.png": "/about/static/media/meet.a212e3db.png",
@@ -29,6 +29,6 @@
   "static/css/main.620c46aa.chunk.css.map": "/about/static/css/main.620c46aa.chunk.css.map",
   "static/css/1.0f20b508.chunk.css.map": "/about/static/css/1.0f20b508.chunk.css.map",
   "index.html": "/about/index.html",
-  "precache-manifest.3c070989b6ac50595d2a461d1d3b40e8.js": "/about/precache-manifest.3c070989b6ac50595d2a461d1d3b40e8.js",
+  "precache-manifest.325fda50850df915cda042ccec512fe2.js": "/about/precache-manifest.325fda50850df915cda042ccec512fe2.js",
   "service-worker.js": "/about/service-worker.js"
 }
